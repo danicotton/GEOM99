@@ -1,6 +1,18 @@
 
 
 /*------------ Footer Katelyn-----------*/
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+/* all the text in the page to ensure the footer stays at the bottom and flexes with page */
+.footerInfo {
+  flex: 1 0 auto;
+}
+/* change colour and font to match what we have */ 
 .footer {
   flex-shrink: 0;
  font-family: Helvetica;  
