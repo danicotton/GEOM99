@@ -19,3 +19,13 @@ body {
   background-color: #4A675A;
   color: white;
   text-align: center; 
+}
+
+.images
+{			
+	width:400px;
+	height:300px;
+	margin-right: 10px;
+	float:left;
+}
+  
