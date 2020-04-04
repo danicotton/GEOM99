@@ -8,6 +8,54 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
+/*-------NavBar Dani-------*/
+.NavBar, .MyTopNav {
+    background-color: #88cc00;
+    overflow: hidden;
+}
+
+
+.NavBar a, .MyTopNav a {
+  float: left;
+  display: block;
+  color: #446600;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 20px;
+
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropbtn {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color:#f2f2f2;
+  padding: 20px;
+  background-color: inherit;
+  margin: o;
+  min-width: 120 px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ;
+  z-index: 1;
+}
+.active {
+  background-color:
+}
 /* all the text in the page to ensure the footer stays at the bottom and flexes with page */
 .footerInfo {
   flex: 1 0 auto;
