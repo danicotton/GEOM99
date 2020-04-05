@@ -22,7 +22,9 @@ body {
 
 /*-------NavBar Dani-------*/
 .NavBar, .MyTopNav {
-    background-color: #4A675A;
+    background-color: #f2f2f2;
+    color: #4A675A;
+    text-decoration: none;
     overflow: hidden;
     display: flex;
     flex-direction: row;
