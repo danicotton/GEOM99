@@ -132,6 +132,13 @@ body {
   }
 /* End of NavBar section*/
 
+/* Content Boxes*/
+.content {
+	display: block;
+	color: #000000; 
+	background-color: #4A675A
+}
+
 
 /* all the text in the page to ensure the footer stays at the bottom and flexes with page */
 .footerInfo {
