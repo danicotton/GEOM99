@@ -1,5 +1,4 @@
 
-
 /*------------ Footer Katelyn-----------*/
 html, body {
   height: 100%;
@@ -8,8 +7,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-
 /*-------NavBar Dani-------*/
 .NavBar, .MyTopNav {
     background-color: #88cc00;
@@ -17,7 +14,7 @@ body {
 }
 
 
-.NavBar a, .MyTopNav a {
+.NavBar a .MyTopNav a {
   float: left;
   display: block;
   color: #446600;
@@ -47,16 +44,40 @@ body {
 
 }
 
+.dropdown .dropbtn {
+
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(159, 170, 145);
+  background-color: ;
   z-index: 1;
 }
 .active {
   background-color: rgb(159, 170, 145);
   color: #f2f2f2;
 }
+
+.NavBar .icon, .MyTopNav .icon {
+	display: none;
+}
+.navbar a:hover, .topnav a:hover, .dropdown:hover .dropbtn {
+	background-color:  rgb(159, 170, 145);
+	color: #f2f2f2;
+}
+  
+.dropdown-content a:hover {
+	background-color: #f2f2f2;
+	color: black;
+}
+  
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
 /* all the text in the page to ensure the footer stays at the bottom and flexes with page */
 .footerInfo {
   flex: 1 0 auto;
