@@ -44,9 +44,6 @@ body {
 
 }
 
-.dropdown .dropbtn {
-
-}
 
 .dropdown-content {
   display: none;
@@ -68,7 +65,7 @@ body {
 }
   
 .dropdown-content a:hover {
-	background-color: #f2f2f2;
+	background-color: #4A675A;
 	color: black;
 }
   
