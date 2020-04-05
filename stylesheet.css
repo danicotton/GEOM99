@@ -31,7 +31,7 @@ body {
 .NavBar a .MyTopNav a {
   float: left;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #f2f2f2;
   background-color: #4A675A;
   text-align: center;
