@@ -48,7 +48,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: ;
+  background-color: #4A675A;
   z-index: 1;
 }
 .active {
