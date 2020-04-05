@@ -50,11 +50,12 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: ;
+  background-color: rgb(159, 170, 145);
   z-index: 1;
 }
 .active {
-  background-color:
+  background-color: rgb(159, 170, 145);
+  color: #f2f2f2;
 }
 /* all the text in the page to ensure the footer stays at the bottom and flexes with page */
 .footerInfo {
