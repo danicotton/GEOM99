@@ -24,13 +24,14 @@ body {
 .NavBar, .MyTopNav {
     background-color: #4A675A;
     overflow: hidden;
+    
 }
 
 
 .NavBar a .MyTopNav a {
   float: left;
   display: block;
-  color: #97b4a7;
+  color: #4A675A;
   background-color: #4A675A;
   text-align: center;
   padding: 20px;
