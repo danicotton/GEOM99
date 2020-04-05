@@ -24,6 +24,8 @@ body {
 .NavBar, .MyTopNav {
     background-color: #4A675A;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
     
 }
 
