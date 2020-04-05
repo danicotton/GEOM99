@@ -20,8 +20,6 @@ body {
 }
 
 
-
-
 /*-------NavBar Dani-------*/
 .NavBar, .MyTopNav {
     background-color: #4A675A;
@@ -33,6 +31,7 @@ body {
   float: left;
   display: block;
   color: #97b4a7;
+  background-color: #4A675A;
   text-align: center;
   padding: 20px;
   text-decoration: none;
