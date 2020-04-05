@@ -9,7 +9,7 @@ body {
 }
 /*-------NavBar Dani-------*/
 .NavBar, .MyTopNav {
-    background-color: #88cc00;
+    background-color: #4A675A;
     overflow: hidden;
 }
 
@@ -17,7 +17,7 @@ body {
 .NavBar a .MyTopNav a {
   float: left;
   display: block;
-  color: #446600;
+  color: #97b4a7;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -55,7 +55,7 @@ body {
   z-index: 1;
 }
 .active {
-  background-color: rgb(159, 170, 145);
+  background-color: #4A675A;
   color: #f2f2f2;
 }
 
@@ -63,7 +63,7 @@ body {
 	display: none;
 }
 .navbar a:hover, .topnav a:hover, .dropdown:hover .dropbtn {
-	background-color:  rgb(159, 170, 145);
+	background-color:  #4A675A;
 	color: #f2f2f2;
 }
   
