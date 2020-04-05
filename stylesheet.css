@@ -31,6 +31,7 @@ body {
 .NavBar a .MyTopNav a {
   float: left;
   display: block;
+  min-width: 100% ;
   color: #f2f2f2;
   background-color: #4A675A;
   text-align: center;
