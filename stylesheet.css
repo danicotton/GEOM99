@@ -7,6 +7,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/*-------Header Dani--------*/
+
+.title {
+  background-color: #4A675A;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size:30px;
+  color: #f2f2f2;
+}
+
+
+
+
 /*-------NavBar Dani-------*/
 .NavBar, .MyTopNav {
     background-color: #4A675A;
@@ -108,6 +123,8 @@ body {
 	text-align: left;
 	}
 }
+/* End of NavBar section*/
+
 
 /* all the text in the page to ensure the footer stays at the bottom and flexes with page */
 .footerInfo {
