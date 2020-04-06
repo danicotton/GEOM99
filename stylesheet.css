@@ -155,7 +155,7 @@ body {
 
 .images
 {			
-	width:200px;
+	width: max;
 	height:200px;
 	margin-right: 10px;
 	float:left;
