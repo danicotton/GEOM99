@@ -153,12 +153,12 @@ body {
   text-align: center; 
 }
 
-.images
-{			
-	width: max;
-	height:200px;
-	margin-right: 10px;
-	float:left;
+			
+.images {
+     float: left;
+     width: 50%;
+     padding: 5px;
+     box-sizing: border-box;
 }
   
   
