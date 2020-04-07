@@ -161,6 +161,9 @@ body {
 }
   
 /* Team work page, katelyn     */
+* {
+  box-sizing: border-box;
+}
 .TW H1 {
 	font-family: Helvetica;
 	text-align: center;
@@ -173,8 +176,5 @@ body {
 
 .ImageTeamwork {
 	float: left;
-}
-.ImageTeamwork ul li {
-	text-align: center;
 }
 
