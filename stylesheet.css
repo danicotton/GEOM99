@@ -161,28 +161,17 @@ body {
 }
   
 /* Team work page, katelyn - Taken from my previous work done    */
-.taskspictures {
-  font-family: Helvetica;
-  color:black;
-  background-color:#e5e5e5;
-  padding:15px;
-  text-align:center;
-}
 .T-pic column {
+  float: left;
+  width:23%;
   padding: 8px;
-  width: 100%;
-  height: 500%;
-  float: right;
-  padding-left: 20px;
-  font-size: 25px;
-  font-family: Helvetica;
-  color:black;
-  background-color:#e5e5e5;
+  height: 350%;
   padding:15px;
-  text-align:center;
 }
+
+/* Clear floats after image containers */
 .T-pic row::after {
   content: "";
   clear: both;
   display: inline-block;
-} 
+}  
