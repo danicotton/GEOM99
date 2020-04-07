@@ -163,4 +163,27 @@ body {
 }
 img {
   float: left;
+}
+.row
+	{
+	content: "";
+	display: table;
+	clear: both;
+	}
+.imagecolumn {
+     float: left;
+     width: 50%;
+     padding: 5px;
+	 box-sizing: border-box;
+    }
+.test
+{
+ width: 33.33%;
+ float: left;
+ margin: 0px;
+ padding-top: 20px;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+	}
 
