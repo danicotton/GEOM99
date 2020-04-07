@@ -175,6 +175,7 @@ body {
 }
 
 .ImageTeamwork {
+	display:inline-block;
 	float: left;
 }
 
