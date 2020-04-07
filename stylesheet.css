@@ -174,5 +174,7 @@ body {
 .ImageTeamwork {
 	float: left;
 }
-
+.ImageTeamwork ul li {
+	text-align: right;
+}
 
