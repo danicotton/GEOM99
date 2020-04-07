@@ -177,5 +177,5 @@ body {
 .tpic row::after {
   content: "";
   clear: both;
-  display: inline-block;
+  display: table;
 } 
