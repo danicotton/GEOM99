@@ -151,9 +151,7 @@ body {
   background-color: #4A675A;
   color: white;
   text-align: center; 
-}
-
-			
+}			
 .images {
      float: left;
      height: 50%;
@@ -166,3 +164,13 @@ body {
 .ImageTeamwork {
 	float: right;
 }
+.ImageTeamwork h2 {
+	text-align: center;
+	font-family: Helvetica
+}
+
+.TW H1 {
+	font-family: Helvetica;
+	text-align: center;
+}
+
