@@ -161,15 +161,15 @@ body {
 }
   
 /* Team work page, katelyn - Taken from my previous work done    */
-.taskspictures {
+.containerpictures {
 	font-size: 18px;
 	font-family: Helvetica;
 	color:black;
+	background-color:#e5e5e5;
 	padding:15px;
 	text-align:center;
-} 
-
-.T-pic column {
+}
+.tpic column {
   float: left;
   width:23%;
   padding: 8px;
@@ -178,8 +178,8 @@ body {
 }
 
 /* Clear floats after image containers */
-.T-pic row::after {
+.tpic row::after {
   content: "";
   clear: both;
-  display: table;
-}  
+  display: inline-block;
+} 
