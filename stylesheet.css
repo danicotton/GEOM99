@@ -161,23 +161,4 @@ body {
 }
 img {
   float: left;
-}
-/* Team work page, katelyn - Taken from my previous work done    */
-.containerpictures {
-	color:black;
-	padding:15px;
-}
-.tpic column {
-  float: left;
-  width:23%;
-  padding: 8px;
-  height: 350%;
-  padding:15px;
-}
 
-/* Clear floats after image containers */
-.tpic row::after {
-  content: "";
-  clear: both;
-  display: inline-block;
-} 
