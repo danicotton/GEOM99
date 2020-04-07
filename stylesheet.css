@@ -186,4 +186,23 @@ img {
  color: black;
  text-align: center;
 	}
+/* This is for the problem statment page */
+* {
+  box-sizing: border-box;
+}
 
+.menu {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 10px solid red;
+}
+
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 10px solid red;
+}
+
+/* End of problem statement page */
