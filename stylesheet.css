@@ -167,7 +167,7 @@ body {
 	color:black;
 	padding:15px;
 	text-align:center;
-}
+} 
 
 .T-pic column {
   float: left;
@@ -181,5 +181,5 @@ body {
 .T-pic row::after {
   content: "";
   clear: both;
-  display: inline-block;
+  display: table;
 }  
