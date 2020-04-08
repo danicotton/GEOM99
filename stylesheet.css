@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   font-family: Tahoma, Geneva, Sans-serif;
 }
-/* This is for the problem statment page and problems encountered */
+/* This is main layout for all pages, w3schools assisted */
 * {
   box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ section {
 }
 
 /* Style the Picture */
-nav {
+.sidepanel {
   flex: 1;
   background: #d3dfd9;
   padding: 15px;
@@ -36,7 +36,7 @@ nav {
 
 
 /* Style the content */
-article {
+.mainpanel {
   flex: 3;
   background-color: #f0f4f2;
   padding: 8px;
