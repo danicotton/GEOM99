@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* This is for the problem statment page */
+/* This is for the problem statment page and problems encountered */
 * {
   box-sizing: border-box;
 }
@@ -45,7 +45,7 @@ article {
   background-color: #f0f4f2;
   padding: 10px;
 }
-/* End of problem statement page */
+/* End of problem statement and problems encountered page */
 
 
 /*-------Header Dani--------*/
