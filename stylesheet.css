@@ -61,8 +61,8 @@ article {
 
 /*-------NavBar Dani-------*/
 .NavBar .MyTopNav {
-    background-color: #7a9f8e;
-    color: #f2f2f2;
+    background-color: #f2f2f2;
+    color: #7a9f8e;
     text-decoration: none;
     width: 100%;
 }
@@ -70,14 +70,12 @@ article {
 
 .NavBar a .MyTopNav a {
   float: left;
-  color: #f2f2f2;
-  background-color: #7a9f8e;
+  color: #7a9f8e;
+  background-color: #f2f2f2;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica;
   font-size: 20px;
-
-
 }
 
 .dropdown {
@@ -127,7 +125,7 @@ article {
   
 .dropdown-content a:hover {
 	background-color: #4A675A;
-	color: black;
+	color: #f2f2f2;
 }
   
 
