@@ -115,6 +115,7 @@ article {
 .active {
   background-color: #4A675A;
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 .navbar a:hover, .topnav a:hover, .dropdown:hover .dropbtn {
