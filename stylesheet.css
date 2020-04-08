@@ -60,7 +60,7 @@ article {
 
 
 /*-------NavBar Dani-------*/
-.NavBar, .MyTopNav {
+.NavBar .MyTopNav {
     background-color: #f2f2f2;
     color: #4A675A;
     text-decoration: none;
