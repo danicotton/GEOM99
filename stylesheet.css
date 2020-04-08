@@ -61,7 +61,7 @@ article {
 
 /*-------NavBar Dani-------*/
 .NavBar .MyTopNav {
-    background-color: #4A675A;
+    background-color: #7a9f8e;
     color: #f2f2f2;
     text-decoration: none;
     width: 100%;
@@ -71,7 +71,7 @@ article {
 .NavBar a .MyTopNav a {
   float: left;
   color: #f2f2f2;
-  background-color: #4A675A;
+  background-color: #7a9f8e;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica;
@@ -89,9 +89,9 @@ article {
   border: none;
   outline: none;
   font-size: 20px;
-  color:#f2f2f2;
+  color:inherit;
   padding: 20px;
-  background-color: #4A675A;
+  background-color: inherit;
   margin: 0;
   min-width: 120px;
 
@@ -102,7 +102,7 @@ article {
   display: none;
   position: absolute;
   min-width: 120px;
-  background-color: #4A675A;
+  background-color: inherit;
   z-index: 1;
 }
 
