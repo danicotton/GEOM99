@@ -27,14 +27,11 @@ header {
 
 /* Container for flexboxes */
 section {
-  display: -webkit-flex;
   display: flex;
 }
 
 /* Style the Picture */
 nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   background: #d3dfd9;
   padding: 20px;
@@ -43,18 +40,9 @@ nav {
 
 /* Style the content */
 article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
   flex: 3;
   background-color: 95% #f0f4f2;
   padding: 10px;
-}
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
 }
 /* End of problem statement page */
 
