@@ -135,31 +135,6 @@ article {
 	display: block;
 }
 
-  @media screen and (max-width: 600px) {
-	.navbar a:not(:first-child), .dropdown .dropbtn {
-		display: none;
-}
-	
-  
-  /* responsive design - added to the navbar with JavaScript - when icon is clicked, displays vertically */
-@media screen and (max-width: 600px) {
-	.navbar.responsive {position: relative;}
-
-.navbar.responsive a {
-	float: none;
-	display: block;
-	text-align: left;
-}
-	
-.navbar.responsive .dropdown {float: none;}
-.navbar.responsive .dropdown-content {position: relative;}
-.navbar.responsive .dropdown .dropbtn {
-	display: block;
-	width: 100%;
-	text-align: left;
-	}
-}
-  }
 /* End of NavBar section*/
 
 /* Content Boxes*/
