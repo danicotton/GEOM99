@@ -59,9 +59,21 @@
 <h1> 
 Story Map End Product
 </h1> 
-<a href="https://storymaps.arcgis.com/stories/514aa3cfa4b749498e3faf67e9aae06d">Click here to view our Story Map</a>
+<a href="https://storymaps.arcgis.com/stories/514aa3cfa4b749498e3faf67e9aae06d" class= "confirmation">Click here to view our Story Map</a>
 
+	  <!----- Javascript to get confirmation to take you to the Treaty 9 StoryMap page ----->
+<script type="text/javascript">
+    var elems = document.getElementsByClassName('confirmation');
+    var confirmIt = function (e) {
+        if (!confirm('You will now be linked to the Treaty 9 StoryMap')) e.preventDefault();
+    };
+    for (var i = 0, l = elems.length; i < l; i++) {
+        elems[i].addEventListener('click', confirmIt, false);
+    }
+	
+</script>
 <h1>
+	
 Story Map Process
 </h1>
 <p>Using the ESRI Storymap site we created a three part story map (Beginning, Middle and End). Due in part to the 30 
