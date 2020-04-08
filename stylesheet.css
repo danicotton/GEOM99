@@ -6,7 +6,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: Oldtown, fantasy;
+  font-family: Tahoma, Geneva, Sans-serif;
 }
 /* This is for the problem statment page and problems encountered */
 * {
