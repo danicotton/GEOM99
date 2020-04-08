@@ -40,18 +40,13 @@ nav {
   padding: 20px;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
 
 /* Style the content */
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: 95% 	#f0f4f2;
+  background-color: 95% #f0f4f2;
   padding: 10px;
 }
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
