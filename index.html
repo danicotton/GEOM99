@@ -70,8 +70,18 @@
 
 <p>Hello and welcome to the Treaty 9 Information Page of our Geom99 Project!</p>
 <p>We are excited to be a part of the Peterborough Canadian Canoe Museum and are looking forward to working with our client in the Spring Semester.
-Here is a quick peek of what we have so <a href="https://storymaps.arcgis.com/stories/e4981d74b74e42dfb8799a5bbe31e846">far</a>.</p>
+Here is a quick peek of what we have so <a href="https://storymaps.arcgis.com/stories/e4981d74b74e42dfb8799a5bbe31e846" class= "confirmation">far</a>.</p>
 
+
+<script type="text/javascript">
+    var elems = document.getElementsByClassName('confirmation');
+    var confirmIt = function (e) {
+        if (!confirm('Take me to the Treaty 9 StoryMap')) e.preventDefault();
+    };
+    for (var i = 0, l = elems.length; i < l; i++) {
+        elems[i].addEventListener('click', confirmIt, false);
+    }
+</script>
   </article>	  
 	  </section> 
 
