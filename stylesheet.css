@@ -6,14 +6,11 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  font-family: Oldtown, fantasy;
 }
 /* This is for the problem statment page and problems encountered */
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: Oldtown, fantasy;
 }
 
 /* Style the header */
