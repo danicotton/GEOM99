@@ -18,7 +18,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #89a99b;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -31,12 +31,12 @@ section {
   display: flex;
 }
 
-/* Style the navigation menu */
+/* Style the Picture */
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background: #ccc;
+  background: #d3dfd9;
   padding: 20px;
 }
 
@@ -51,18 +51,9 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
+  background-color: 95% 	#f0f4f2;
   padding: 10px;
 }
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
