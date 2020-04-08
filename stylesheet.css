@@ -28,7 +28,7 @@ section {
 }
 
 /* Style the Picture */
-.sidepanel {
+nav {
   flex: 1;
   background: #d3dfd9;
   padding: 15px;
@@ -36,7 +36,7 @@ section {
 
 
 /* Style the content */
-.mainpanel {
+article {
   flex: 3;
   background-color: #f0f4f2;
   padding: 8px;
