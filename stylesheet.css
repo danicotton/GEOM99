@@ -65,18 +65,12 @@ article {
     color: #4A675A;
     text-decoration: none;
     overflow: hidden;
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: row;
-    padding-right: 100%;
     
 }
 
 
 .NavBar a .MyTopNav a {
   float: left;
-  display: flex;
-  flex-direction: row;
   color: #4A675A;
   background-color: #f2f2f2;
   text-align: center;
