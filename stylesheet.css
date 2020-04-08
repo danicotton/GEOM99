@@ -28,7 +28,7 @@ section {
 }
 
 /* Style the Picture */
-nav {
+aside {
   flex: 1;
   background: #d3dfd9;
   padding: 15px;
