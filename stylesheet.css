@@ -100,7 +100,7 @@ article {
   display: none;
   position: absolute;
   min-width: 120px;
-  background-color: inherit;
+  background-color: #7a9f8e;
   z-index: 1;
 }
 
@@ -112,6 +112,7 @@ article {
   display: block;
   text-align: left;
   font-size: inherit;
+  background-color: #7a9f8e
 }
 .active {
   background-color: #4A675A;
