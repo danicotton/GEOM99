@@ -60,7 +60,7 @@ article {
 
 
 /*-------NavBar Dani-------*/
-.NavBar .MyTopNav {
+.NavBar {
     background-color: #f2f2f2;
     color: #7a9f8e;
     text-decoration: none;
@@ -68,7 +68,7 @@ article {
 }
 
 
-.NavBar a .MyTopNav a {
+.NavBar a{
   float: left;
   color: #7a9f8e;
   background-color: #f2f2f2;
