@@ -61,8 +61,8 @@ article {
 
 /*-------NavBar Dani-------*/
 .NavBar .MyTopNav {
-    background-color: #f2f2f2;
-    color: #4A675A;
+    background-color: #4A675A;
+    color: #f2f2f2;
     text-decoration: none;
     width: 100%;
 }
@@ -70,8 +70,8 @@ article {
 
 .NavBar a .MyTopNav a {
   float: left;
-  color: #4A675A;
-  background-color: #f2f2f2;
+  color: #f2f2f2;
+  background-color: #4A675A;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica;
